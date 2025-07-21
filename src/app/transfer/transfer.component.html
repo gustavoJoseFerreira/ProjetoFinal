@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <title>Dashboard</title>
+
+      <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+      <link href="transfer.component.html" rel="stylesheet">
+  </head>
+
+  <body id="page-top" class="bg">
+    <nav class="navbar navbar-expand-lg navbar-dark" >
+      <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/dashboard"><i class="bi bi-bank"></i>&nbsp;&nbsp;Nax Bank</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" (click)="conta()">Conta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="pagamento()">Pagamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" (click)="transferencias()">Transferências</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="alertas()">Alertas</a>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link " (click)="logout()">Logout</button>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Olá, {{ nomeUtilizador }}!
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" (click)="logout()">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-5">
+      <div class="row justify-content-center align-items-start">
+
+    <div class="col-lg-6 mb-4">
+
+        <div class="card o-hidden border-0 shadow-lg my-0 ">
+            <div class="card-body p-0">
+                        <div class="p-4">
+                            <div class="text-center">
+                                <h1 class="h4 text-gray-900 mb-4">Transferências Internas</h1>
+                            </div>
+                            <form [formGroup]="transferForm" (ngSubmit)="enviarTransferencia()">
+                                <div class="form-group">
+                                  <label>Conta de Origem:</label>
+                                  <br>
+                                  <select formControlName="ibanOrigem" required class="sel">
+                                    <option value="" disabled>Selecione a conta</option>
+                                    <option *ngFor="let conta of contas" [value]="conta.iban">
+                                      {{ conta.iban }} 
+                                    </option>
+                                  </select>
+                                </div>
+                                <br>
+
+                                <div class="form-group">
+                                  <div class="col-lg mb-3 mb-sm-0">
+                                    <label for="entidade">IBAN de destino:</label>
+                                    <br>
+                                    <input type="text" formControlName="ibanDestino" required />
+                                    <div *ngIf="transferForm.get('ibanDestino')?.invalid && transferForm.get('ibanDestino')?.touched">
+                                      IBAN é obrigatório.
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <br>
+
+                                <div class="form-group">
+                                  <div class="col-lg mb-3 mb-sm-0">
+                                    <label>Valor:</label>
+                                    <br>
+                                    <input type="number" formControlName="valor" min="0.01" step="0.01" required />
+                                    <div *ngIf="transferForm.get('valor')?.invalid && transferForm.get('valor')?.touched">
+                                      Valor inválido.
+                                    </div>
+                                  </div>
+                                </div>
+                                <br>
+                                <button type="submit" [disabled]="transferForm.invalid" class="btn rounded-pill">Transferir</button>
+                              </form>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 mb-4">
+
+      <div class="card o-hidden border-0 shadow-lg my-0 ">
+          <div class="card-body p-0">
+                      <div class="p-4">
+                          <div class="text-center">
+                              <h1 class="h4 text-gray-900 mb-4">Histórico de Transferências</h1>
+                              <ul *ngIf="historico.length > 0; else semTransferencias">
+                                <li *ngFor="let t of historico">
+                                  {{ t.data }} | De: {{ t.ibanOrigem }} | Para: {{ t.ibanDestino }} | Valor: {{ t.valor | currency:'EUR' }}
+                                </li>
+                           
+                              </ul>
+                              <ng-template #semTransferencias>
+                                <p>Sem transferências registadas.</p>
+                              </ng-template>
+                          </div>
+                      </div>
+          </div>
+      </div>
+    </div>
+      </div>
+
+
+<!-- <h2>Transferências Internas</h2>
+
+    <form [formGroup]="transferForm" (ngSubmit)="enviarTransferencia()">
+
+      <label>Conta de Origem:</label>
+      <select formControlName="ibanOrigem" required>
+        <option value="" disabled>Selecione a conta</option>
+        <option *ngFor="let conta of contas" [value]="conta.iban">
+          {{ conta.iban }} 
+        </option>
+      </select> -->
+
+      <!-- <label>IBAN de destino:</label>
+      <input type="text" formControlName="ibanDestino" required />
+      <div *ngIf="transferForm.get('ibanDestino')?.invalid && transferForm.get('ibanDestino')?.touched">
+        IBAN é obrigatório.
+      </div> -->
+
+      <!-- <label>Valor:</label>
+      <input type="number" formControlName="valor" required min="0.01" step="0.01" />
+      <div *ngIf="transferForm.get('valor')?.invalid && transferForm.get('valor')?.touched">
+        Valor inválido.
+      </div> -->
+
+      <!-- <button type="submit" [disabled]="transferForm.invalid">Transferir</button>
+    </form> -->
+
+      <!-- <h3>Histórico de Transferências</h3>
+      <ul *ngIf="historico.length > 0; else semTransferencias">
+        <li *ngFor="let t of historico">
+          {{ t.data }} | De: {{ t.ibanOrigem }} | Para: {{ t.ibanDestino }} | Valor: {{ t.valor | currency:'EUR' }}
+        </li>
+  
+      </ul>
+      <ng-template #semTransferencias>
+        <p>Sem transferências registadas.</p>
+      </ng-template> -->

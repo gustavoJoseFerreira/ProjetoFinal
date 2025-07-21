@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-color: #185476;
+    height: 100%;
+    min-height: 100vh;
+    
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+}
+
+.btn-log {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #185476;
+    cursor: pointer;
+}
+
+.btn-log:hover {
+    background-color: #154866;
+}
+
+.form-control {
+    border-radius: 25px;
+    height: 50px;
+}
+
+.pass {
+    border-radius: 25px;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+.err {
+    color: red;
+    font-size: small;
+}

@@ -1,0 +1,43 @@
+.bg {
+    background-color: #185476;
+    min-height: 100vh;
+    
+}
+
+.bd {
+    height: 100%;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+}
+
+.btn-reg {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #185476;
+    cursor: pointer;
+}
+
+.btn-reg:hover {
+    background-color: #154866;
+}
+
+.form-control {
+    border-radius: 25px;
+    height: 50px;
+}
+
+.err {
+    color: red;
+    font-size: small;
+}
+
+.container {
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    
+}

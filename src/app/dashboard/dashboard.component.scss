@@ -1,0 +1,103 @@
+.bg {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #185476;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  background-color: #154866;
+}
+
+.dropdown-item {
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  color: #154866;
+}
+
+.card1 {
+  border-left-color: #149fa4;
+  border-left-width: 5px;
+  margin-left: 20px;
+}
+
+.text-xs {
+  color: #149fa4;
+}
+
+.h5, h1{
+  color: rgb(0, 0, 0, 0.7);
+}
+
+.bi {
+  color: lightgray;
+  font-size: x-large;
+}
+
+.card2 {
+  margin-left: 20px;
+}
+
+.title2 {
+  margin-left: 10px;
+}
+
+.title3 {
+  color: #149fa4;
+}
+
+.card-header {
+  border-color: #149fa4;
+}
+
+.rec {
+  color: #149fa4;
+  font-size: xx-large;
+}
+
+.mov {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.recval {
+  color: #149fa4;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: right;
+}
+
+.pag {
+  color: red;
+  font-size: xx-large;
+}
+
+.pagval {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: right;
+}
+
+.btn {
+  background-color: #185476;
+  color: white;
+}
+
+.form-select {
+  width: 100%;
+  border-radius: 25px;
+  height: 50px;
+  padding-left: 10px;
+}
