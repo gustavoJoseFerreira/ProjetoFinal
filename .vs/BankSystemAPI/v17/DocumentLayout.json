@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\utilizadorpermissao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\utilizadorpermissao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\transferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\transferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\permissao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\permissao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\notificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\notificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\movimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\movimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\logerro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\logerro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\logacesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\logacesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\bankcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\bankcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\models\\backup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\models\\backup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\controllers\\transferenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\controllers\\transferenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\controllers\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\controllers\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\controllers\\notificacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\controllers\\notificacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\controllers\\movimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\controllers\\movimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\controllers\\contabancariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\controllers\\contabancariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|c:\\users\\user\\desktop\\banksystemapi 1\\banksystemapi\\banksystemapi\\banksystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF94CF3F-469D-4E3B-B83C-A5995A6F90B1}|BankSystemAPI\\BankSystemAPI.csproj|solutionrelative:banksystemapi\\banksystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LogErro.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\LogErro.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\LogErro.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\LogErro.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\LogErro.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T12:24:29.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogAcesso.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\LogAcesso.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\LogAcesso.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\LogAcesso.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\LogAcesso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T12:24:09.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Backup.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Backup.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\Backup.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Backup.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\Backup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T10:46:44.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BankSystemAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAF4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T17:59:23.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BankSystemAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwFoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:38:05.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BankSystemAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-18T09:09:05.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BankSystemAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\appsettings.Development.json",
+              "RelativeToolTip": "BankSystemAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-18T09:08:57.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MovimentoController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\MovimentoController.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Controllers\\MovimentoController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\MovimentoController.cs",
+              "RelativeToolTip": "BankSystemAPI\\Controllers\\MovimentoController.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAkwO0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T13:16:56.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Program.cs",
+              "RelativeToolTip": "BankSystemAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T13:08:04.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Transferencia.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Transferencia.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\Transferencia.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Transferencia.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\Transferencia.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:59:22.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Movimento.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Movimento.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\Movimento.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Movimento.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\Movimento.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:59:02.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BankSystemAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACIBAAAAAAAAAAA7wE4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T13:07:26.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TransferenciaController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\TransferenciaController.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Controllers\\TransferenciaController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\TransferenciaController.cs",
+              "RelativeToolTip": "BankSystemAPI\\Controllers\\TransferenciaController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T13:06:24.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PagamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\PagamentoController.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Controllers\\PagamentoController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\PagamentoController.cs",
+              "RelativeToolTip": "BankSystemAPI\\Controllers\\PagamentoController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwEYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T13:06:46.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BankSystemAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\appsettings.json",
+              "RelativeToolTip": "BankSystemAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T11:36:17.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NotificacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\NotificacaoController.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Controllers\\NotificacaoController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\NotificacaoController.cs",
+              "RelativeToolTip": "BankSystemAPI\\Controllers\\NotificacaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T13:07:08.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BankSystemAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\BankSystemAPI.csproj",
+              "RelativeDocumentMoniker": "BankSystemAPI\\BankSystemAPI.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\BankSystemAPI.csproj",
+              "RelativeToolTip": "BankSystemAPI\\BankSystemAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-14T11:29:49.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ContaBancariaController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\ContaBancariaController.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Controllers\\ContaBancariaController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Controllers\\ContaBancariaController.cs",
+              "RelativeToolTip": "BankSystemAPI\\Controllers\\ContaBancariaController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAmwC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T13:05:44.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BankContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\BankContext.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\BankContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\BankContext.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\BankContext.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T13:04:24.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Notificacao.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Notificacao.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\Notificacao.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Notificacao.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\Notificacao.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T12:00:00.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pagamento.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Pagamento.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\Pagamento.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Pagamento.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\Pagamento.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAywCMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:59:39.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\ContaBancaria.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\ContaBancaria.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\ContaBancaria.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\ContaBancaria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:58:37.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UtilizadorPermissao.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\UtilizadorPermissao.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\UtilizadorPermissao.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\UtilizadorPermissao.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\UtilizadorPermissao.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:58:15.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Permissao.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Permissao.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\Permissao.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Permissao.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\Permissao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:57:47.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Utilizador.cs",
+              "RelativeDocumentMoniker": "BankSystemAPI\\Models\\Utilizador.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BankSystemAPI 1\\BankSystemAPI\\BankSystemAPI\\Models\\Utilizador.cs",
+              "RelativeToolTip": "BankSystemAPI\\Models\\Utilizador.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA7wAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:57:24.175Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
