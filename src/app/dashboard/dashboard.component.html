@@ -37,11 +37,11 @@
               <a class="nav-link" (click)="transferencias()">Transferências</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" (click)="alertas()">Alertas</a>
+              <a class="nav-link" (click)="alertas()">Notificacões</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <button class="nav-link " (click)="logout()">Logout</button>
-            </li>
+            </li> -->
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
@@ -49,7 +49,7 @@
                 Olá, {{ nomeUtilizador }}!
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" (click)="logout()">Logout</a></li>
+                <li><a class="dropdown-item " (click)="logout()">Logout</a></li>
               </ul>
             </li>
           </ul>
@@ -59,15 +59,15 @@
 
     <main class="container py-4">
       <section class="mb-5">
-        <h2 class="mb-4">Contas do utilizador</h2>
+        <h1 class="h3 mb-4 title2">Contas do utilizador</h1>
     
         <div *ngIf="contas.length > 0; else semContas">
-          <div *ngFor="let conta of contas" class="card mb-3">
+          <div *ngFor="let conta of contas" class="card mb-3 border-start-primary shadow h-100 py-2 card1">
             <div class="card-body">
-              <p><strong>IBAN:</strong> {{ conta.iban }}</p>
-              <p><strong>Saldo:</strong> {{ conta.saldo | currency:'EUR' }}</p>
-              <p><strong>Tipo de Conta:</strong> {{ conta.tipoConta }}</p>
-              <p><strong>Estado:</strong> {{ conta.estado }}</p>
+              <p><strong class="text-xs text-uppercase">IBAN:&nbsp;</strong> {{ conta.iban }}</p>
+              <p><strong class="text-xs text-uppercase">Saldo:&nbsp;</strong> {{ conta.saldo | currency:'EUR' }}</p>
+              <p><strong class="text-xs text-uppercase">Tipo de Conta:&nbsp;</strong> {{ conta.tipoConta }}</p>
+              <p><strong class="text-xs text-uppercase">Estado:&nbsp;</strong> {{ conta.estado }}</p>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
       </section>
     
       <section class="mb-5">
-        <h3 class="mb-3">Criar nova conta</h3>
+        <h1 class="h3 mb-3 title2">Criar nova conta</h1>
         <div class="row g-2 align-items-center">
           <div class="col-md-6">
             <select class="form-select" [(ngModel)]="tipoContaSelecionado">
@@ -93,12 +93,12 @@
       </section>
     
       <section class="mb-5">
-        <h3 class="mb-3">Últimos 5 Movimentos</h3>
+        <h1 class="h3 mb-3 title2">Últimos 5 Movimentos</h1>
     
         <ul class="list-group" *ngIf="movimentos.length > 0; else semMovimentos">
-          <li *ngFor="let mov of movimentos" class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+          <li *ngFor="let mov of movimentos" class="list-group-item d-flex justify-content-between align-items-center flex-wrap shadow h-100 py-2">
             <div class="me-auto">
-              <strong>{{ mov.tipoMovimento }}</strong> - {{ mov.descricao }}
+              <strong class="text-xs text-uppercase">{{ mov.tipoMovimento }}&nbsp;&nbsp;</strong> <i class="bi bi-arrow-right-short"></i>&nbsp;&nbsp; {{ mov.descricao }}
             </div>
             <div class="text-end">
               <div>{{ mov.valor | currency:'EUR' }}</div>
@@ -114,114 +114,8 @@
     
       <router-outlet></router-outlet>
     </main>
-    
-
-    <!-- <div class="container-fluid">
-
-      <div class="d-sm-flex align-items-center justify-content-between mb-4">
-          <h1 class="h3 mb-0 title2">Account</h1>
-      </div>
-    </div>
-    <div class="row">
-
-      <div class="col-xl-3 col-md-6 mb-4">
-          <div class="card border-start-primary shadow h-100 py-2 card1">
-              <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                      <div class="col mr-2">
-                          <div class="text-xs font-weight-bold text-uppercase mb-1">
-                              Current Balance</div>
-                          <div class="h5 mb-0 font-weight-bold">$40,000</div>
-                      </div>
-                      <div class="col-auto">
-                          <i class="bi bi-calendar-event-fill"></i>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-xxl-5 col-lg-7">
-            <div class="card shadow mb-4 card2">
-                <div
-                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 text-xs text-uppercase title3">Movements</h6>
-                    
-                </div>
-                <div class="card-body">
-                  <div class="mov">
-                    <i class="bi bi-arrow-up-circle rec"></i>
-                    <strong class="recnome text-uppercase">trf imediata sepa+ de antónio josé</strong>
-                    <a class="recval">12,20 EUR</a>
-                  </div>
-                  <div class="mov">
-                    <i class="bi bi-arrow-down-circle pag"></i>
-                    <strong class="pagnome text-uppercase">levantamento mb cartão</strong>
-                    <a class="pagval">40,00 EUR</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>
-    </div> -->
-
-    
-
           
   <router-outlet></router-outlet>  
-
-
-
-
-  <!-- <main class="content">
-    <section class="account-summary">
-      <h2>Contas do Usuário</h2>
-    
-      <div *ngIf="contas.length > 0; else semContas">
-        <div *ngFor="let conta of contas" class="conta-card">
-          <p><strong>IBAN:</strong> {{ conta.iban }}</p>
-          <p><strong>Saldo:</strong> {{ conta.saldo | currency:'EUR' }}</p>
-          <p><strong>Tipo de Conta:</strong> {{ conta.tipoConta }}</p>
-          <p><strong>Estado:</strong> {{ conta.estado }}</p>
-          <hr />
-        </div>
-      </div>
-    
-      <ng-template #semContas>
-        <p>Nenhuma conta encontrada para o utilizador.</p>
-      </ng-template>
-    </section>
-
-    <section>
-      <h3>Criar nova conta</h3>
-      <select [(ngModel)]="tipoContaSelecionado">
-        <option value="Conta Poupança">Poupança</option>
-        <option value="Conta Corrente">Corrente</option>
-      </select>
-      <button (click)="criarConta()">Criar Conta</button>
-    </section>
-    
-
-    <section class="recent-movements">
-      <h3>Últimos 5 Movimentos</h3>
-      <ul *ngIf="movimentos.length > 0; else semMovimentos">
-        <li *ngFor="let mov of movimentos"> -->
-          <!-- <pre>{{ mov | json }}</pre> -->
-          <!-- <strong>{{ mov.tipoMovimento }}</strong> - {{ mov.descricao }} - 
-          {{ mov.valor | currency:'EUR' }} - 
-          {{ mov.dataMovimento | date:'short' }}
-        </li>
-      </ul>
-      <ng-template #semMovimentos>
-        <p>Nenhum movimento disponível.</p>
-      </ng-template>
-    </section>
-
-    <router-outlet></router-outlet>
-  </main>
-</div> -->
 
 </body>
 </html>

@@ -18,7 +18,7 @@
     <link href="alert.component.html" rel="stylesheet">
 </head>
 
-  <body class="bg-light">
+  <body class="bg">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" routerLink="/dashboard">
@@ -44,11 +44,11 @@
               <a class="nav-link" (click)="transferencias()">Transferências</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" >Alertas</a>
+              <a class="nav-link active" >Notificacões</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <button class="nav-link " (click)="logout()">Logout</button>
-            </li>
+            </li> -->
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
@@ -67,10 +67,10 @@
     <div class="container py-5">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="card shadow-sm border-0">
+          <div class="card shadow-lg my-0">
             <div class="card-body">
               <div class="text-center mb-4">
-                <h2 class="h4 text-dark">Notificações</h2>
+                <h1 class="h4 text-gray-900 mb-4">Notificações não lidas</h1>
               </div>
     
               <ul class="list-group" *ngIf="notificacoes.length > 0; else semAlertas">
@@ -79,15 +79,14 @@
                   class="list-group-item d-flex justify-content-between align-items-start"
                 >
                   <div class="ms-2 me-auto">
-                    <div class="fw-bold">{{ notificacao.titulo }}</div>
+                    <div class="lbl text-xs text-uppercase">{{ notificacao.titulo }}</div>
                     <div>{{ notificacao.mensagem }}</div>
                     <small class="text-muted">{{ notificacao.dataEnvio | date: 'short' }}</small>
                   </div>
                   <button
-                    class="btn btn-sm btn-outline-primary"
+                    class="btn btn-sm btn-outline-success"
                     (click)="marcarComoLida(notificacao.notificacaoID)"
-                    [disabled]="notificacao.lida"
-                  >
+                    [disabled]="notificacao.lida">
                     Marcar como lida
                   </button>
                 </li>

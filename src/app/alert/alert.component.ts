@@ -14,6 +14,7 @@ export class AlertComponent implements OnInit {
   alertas: any[] = [];
   notificacoes: any[] = [];
   nomeUtilizador: string = '';
+  
 
   constructor(private http: HttpClient, private router: Router) {}
 
